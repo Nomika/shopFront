@@ -13,7 +13,7 @@ getAllData = () => {
           throw new Error(`Błąd: ${result.status} - ${result.statusText}`);
   
         }
-  
+  ///
         return result.json();
   
       })
